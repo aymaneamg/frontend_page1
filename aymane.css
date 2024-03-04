@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background: rgb(109, 115, 124);
+
+
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: rgb(22, 20, 20);
+}
+
+
+
+nav a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(6, 7, 7);
+    height: 100%;
+    list-style: none;
+
+}
+
+nav li {
+    margin: 0% 15px;
+
+}
+
+.a:hover {
+    color: rgb(213, 77, 14);
+}
+
+@media screen and (max-width:550px) {
+    nav li {
+        margin: 0 8px;
+
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+
+}
+
+.one {
+    height: 500px;
+    width: 100%;
+    color: aliceblue;
+    overflow: hidden;
+    display: flex;
+
+
+}
+
+
+.avec {
+    padding-left: 25%;
+
+
+    display: flex;
+
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir tout le texte */
+    background-clip: text;
+
+    font-size: 36px;
+    /* Taille de la police du texte */
+    font-weight: bold;
+    /* Gras pour le texte */
+    color: transparent;
+    /* Rend le texte transparent */
+    background-image: url(css/images.jpeg);
+    /* Chemin vers votre image */
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir tout le texte */
+    -webkit-background-clip: text;
+    /* Utilisé pour la compatibilité avec les navigateurs basés sur WebKit (Safari, Chrome) */
+    background-clip: text;
+    /* La magie qui permet à l'image de s'afficher à l'intérieur du texte */
+    font-size: 90px;
+
+
+
+
+
+}
+
+.a1 {
+    padding-bottom: 90%;
+}
+
+h1 {
+    margin: 10vw;
+
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+
+    /* 10vh;tol*/
+
+
+}
+
+.b1 {
+    border: 9px solid rgb(249, 249, 249);
+    border-color: aqua;
+    border-radius: 5px;
+    margin: 10vw;
+    color: rgb(5, 8, 11);
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 600;
+
+    cursor: pointer;
+    background: rgb(0, 255, 247);
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+
+.b1:hover {
+    background: rgb(170, 114, 114);
+    border: hidden;
+}
+
+.right {
+
+    background-image: url(css/ee.jpg);
+    width: 60%;
+    height: 100%;
+    background-position: 95% 25%;
+}
+
+.left {
+    position: relative;
+    background: black;
+    width: 40%;
+    height: 500px;
+    box-shadow: 90px 0 100px 100px black;
+}
+
+@media screen and (max-width:750px) {
+    .left {
+        width: 40%;
+    }
+
+    .right {
+        background-position: 45% 20%;
+    }
+
+    .avec {
+        font-size: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .one {
+        height: 450px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        padding-top: 100px;
+        margin-left: 2vw;
+    }
+
+    .avec {
+        font-size: 50px;
+    }
+
+
+
+}
+
+.text {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    padding: 40px 120px 30px;
+    text-transform: uppercase;
+    background: aliceblue;
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background: aliceblue;
+    position: relative;
+}
+
+.info-card {
+    width: 25%;
+    height: auto;
+    margin: 0 20px 0px;
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.photo img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.info-card h2 {
+    color: rgb(153, 105, 105);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.info-card p {
+    color: rgb(29, 29, 29);
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+@media screen and (max-width:500px) {
+
+    .info-card {
+        width: 100%;
+        padding: auto;
+    }
+}
